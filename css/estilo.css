@@ -20,7 +20,7 @@ body,html,main{
     height: 3.1rem;
     top: 0rem;
     left: 1rem;
-    margin-top: 0.2rem;
+    margin-top: 0.7rem;
     filter: invert(100%); 
 }
 .foto_perfil{
@@ -49,7 +49,7 @@ body,html,main{
 }
 a{
     text-decoration:none;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Slab', serif;
     color: white;
     font-weight: bold;
 }
@@ -60,6 +60,7 @@ p{
 }
 h1{
     font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
     color: white;
 }
 h2{
@@ -90,12 +91,12 @@ li{
     height: 100%;
 }
 .ajustando_mapa{
-    height: 100%;
+    height: 70%;
 }
 .mapa{
     display:flex;
     width: 100% ;
-    height: 30rem;
+    height: 25rem;
     margin: 1rem;
 }
 .ajeitando_centro{
@@ -166,3 +167,48 @@ li{
     height:30%;
     width: 40%;
 }
+.fotos2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25rem;
+    height: 15rem;
+}
+.colunas{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 1rem;
+}
+.icone_voltar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;   
+}
+a.icone_voltar_tamanho{
+    display: flex;
+    justify-content: flex-end;
+    margin-right:0.5rem;
+    width: 3rem;
+    height:3rem;
+}
+.ajustando_voltar{
+    position: absolute;
+    bottom: 0rem;
+    right: 0rem;
+    margin: 1rem;
+}
+
+.ajustando_voltar2{
+    display: flex;
+    bottom: 0rem;
+    right: 0rem;
+    margin: 1rem;
+}
+.tamanho_pesquisar_comentario{
+    height:4rem;
+    width: 80%;
+}
+
+  
