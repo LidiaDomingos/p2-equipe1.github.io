@@ -73,6 +73,7 @@ h2{
 input[type="text"] {
     background-color:white;
 }
+
 .pesquisar{
     display:flex;
     flex-direction: column;
