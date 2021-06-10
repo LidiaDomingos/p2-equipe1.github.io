@@ -44,7 +44,6 @@ body,html,main{
     margin: 0.2rem;
     padding: 0.5rem; 
     justify-content: space-around;
-    align-items: space-evenly;
     color: white;
 }
 a{
@@ -210,7 +209,7 @@ a.icone_voltar_tamanho{
 }
 .tamanho_pesquisar_comentario{
     height:4rem;
-    width: 80%;
+    width: 30rem;
 }
 
 .borda_comentario{

@@ -1,8 +1,8 @@
 
-    var avl = ''
+    var avl = '';
     function Avaliar(estrela) {
         var url = window.location;
-        url = url.toString()
+        url = url.toString();
         url = url.split("restaurante.html");
         url = url[0];
        
@@ -102,23 +102,25 @@
         avaliacao = 0;
        }}
         
-       localStorage.setItem("avl",avaliacao)
+       localStorage.setItem("avl",avaliacao);
 
     } 
 
-    ul = document.querySelector('ul.colunas')
 
-    text = document.querySelector('input[type="text"]')
+document.addEventListener('DOMContentLoaded', function() {
+    ul = document.querySelector('ul.colunas');
 
-    submit = document.querySelector('input[type="submit"]')
+    text = document.querySelector('input[type="text"]');
+
+    submit = document.querySelector('input[type="submit"]');
  
     submit.addEventListener('click', function(event) {
-        li = document.createElement('li')
-        p = document.createElement('p')
-        p.innerHTML = 'Gilberto Nogueira: ' + text.value + '&#11088;'.repeat(localStorage.getItem("avl"))
-        li.appendChild(p)
-        ul.appendChild(li)
+        li = document.createElement('li');
+        p = document.createElement('p');
+        p.innerHTML = 'Gilberto Nogueira: ' + text.value + '&#11088;'.repeat(localStorage.getItem("avl"));
+        li.appendChild(p);
+        ul.appendChild(li);
 
-        event.preventDefault()
-    })
-
+        event.preventDefault();
+    });
+});
