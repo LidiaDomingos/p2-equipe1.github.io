@@ -20,7 +20,7 @@ body,html,main{
     height: 3.1rem;
     top: 0rem;
     left: 1rem;
-    margin-top: 0.7rem;
+    margin-top: 0.5rem;
     filter: invert(100%); 
 }
 .foto_perfil{
@@ -92,11 +92,11 @@ li{
     height: 100%;
 }
 .ajustando_mapa{
-    height: 70%;
+    height: 75%;
 }
 .mapa{
     display:flex;
-    width: 100% ;
+    width: 80%;
     height: 25rem;
     margin: 1rem;
 }
@@ -178,10 +178,11 @@ li{
 .colunas{
     display:flex;
     flex-direction: column;
-    align-items: center;
     justify-content: space-evenly;
     margin: 1rem;
+    height: 30%;
 }
+
 .icone_voltar{
     display: flex;
     justify-content: flex-end;

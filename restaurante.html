@@ -9,6 +9,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        
     </head>
     <body>
         <header class="cabecalho">
@@ -50,26 +51,36 @@
                 <ul class = 'borda_comentario'>
                     <li class= 'ajustando_row'>
                     <h1>Ratings: </h1>
-                        <input type=radio name=ratingquality value=1> 
-                        <input type=radio name=ratingquality value=2> 
-                        <input type=radio name=ratingquality value=3> 
-                        <input type=radio name=ratingquality value=4> 
-                        <input type=radio name=ratingquality value=5>
+                        <a href="javascript:void(0)" onclick="Avaliar(1)">
+                            <img src="img/star0.png" id="s1">
+                        </a>
+                        <a href="javascript:void(0)" onclick="Avaliar(2)">
+                            <img src="img/star0.png" id="s2">
+                        </a>
+                        <a href="javascript:void(0)" onclick="Avaliar(3)">
+                            <img src="img/star0.png" id="s3">
+                        </a>
+                        <a href="javascript:void(0)" onclick="Avaliar(4)">
+                            <img src="img/star0.png" id="s4">
+                        </a>
+                        <a href="javascript:void(0)" onclick="Avaliar(5)">
+                            <img src="img/star0.png" id="s5">
+                        </a>
                     </li>
-                <form class = 'pesquisar' action = "#">
-                    <input type="text" class = 'tamanho_pesquisar_comentario' value = "Deixe aqui seu comentário!">
-                    <input type ="submit">
-                </form>
+                    <form class = 'pesquisar' action = "#">
+                        <input type="text" class = 'tamanho_pesquisar_comentario'>
+                        <input type ="submit" value = "Adicionar">
+                    </form>
                 </ul>
                 <ul class = 'colunas'>
                     <li>
                         <p>
-                            pessoa1: -----------------------------------------------------------------------------------------
+                            Matheus Nogueira: Ambiente com ótimo custo-benefício!! &#11088;&#11088;&#11088;&#11088;&#11088;
                         </p>
                     </li>
                     <li>
                         <p>
-                            pessoa2: -----------------------------------------------------------------------------------------
+                            Yane Lima: muito bom o local mas muito lotado e pouco espaço! &#11088;&#11088;&#11088;
                         </p>
                     </li>
                 </ul>
@@ -82,4 +93,5 @@
                 </ul>
         </main>
     </body>
+    <script src="js/script.js"></script>
 </html>
